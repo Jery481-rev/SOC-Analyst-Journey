@@ -1,0 +1,32 @@
+# Sensitive information
+*.key
+*.pem
+*.env
+credentials.txt
+secrets/
+
+# Lab data that shouldn't be public
+pcap-files/
+sensitive-logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.bak
